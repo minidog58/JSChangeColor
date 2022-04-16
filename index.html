@@ -1,0 +1,37 @@
+<doctype html>
+<html>
+<head>
+    <title>lab10_part1</title>
+    <link rel = "stylesheet" href = "styles.css" >
+    <script src="scripts.js"></script>
+
+</head>
+<body>
+    <div id = "container">
+        <div class = "box" id = "box1">
+            <h2>Change font color</h2>
+            <form>
+                <input type = "radio" id = "red" value = "red" name = "textColor" onclick="fontColorRed()">
+                <label for = "red">red</label>
+                <input type = "radio" id = "blue" value = "blue"  name = "textColor" onclick="fontColorBlue()">
+                <label for = "blue">blue</label>
+                <input type = "radio" id = "green" value = "green" name = "textColor" onclick="fontColorGreen()">
+                <label for = "green">green</label>
+            </form>
+        </div>
+        <div class = "box" id = "box2">
+            <h1 id = "str">CSIS 1280</h1>
+        </div>
+        <div class = "box" id = "box3">
+            <h2>Change background color</h2>
+            <select id = "bgcolor" onchange = "boxColor(this.value)">
+                <option value = "white" selected></option>
+                <option value = "red" >red</option>
+                <option value = "blue">blue</option>
+                <option value = "green">green</option>
+            </select>
+        </div>
+    </div>
+    
+</body>
+<html

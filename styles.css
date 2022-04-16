@@ -1,0 +1,21 @@
+#container{
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+#box1{
+    height: 125px;
+}
+#box2{
+    grid-column: 2;
+    height: 250px;
+    text-align: center;
+    grid-row: span 2;
+    background-color: white;
+}
+#box3{
+    height: 125px;
+}
+.box{
+    border: 1px solid;  
+    border-color: black;
+}
